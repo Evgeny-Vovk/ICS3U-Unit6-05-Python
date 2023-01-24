@@ -4,8 +4,6 @@
 # Created on: January 2023
 # ICS3U-Unit6-05.py File, learning functions with parameters in python.
 
-import random
-
 
 def grade_process(grades):
     sum = 0
@@ -32,7 +30,7 @@ def main():
         print("\nThe average of all grades is {0:,.0f}.".format(average))
         print("")
 
-    except(ValueError):
+    except (ValueError):
         print("Invalid input, please try again.")
 
     print("\n\nDone.")
